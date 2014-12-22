@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TebakGambar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_angkat_tangan">Level 1</string>
+    <string name="title_activity_belah_duren">Level 1</string>
+    <string name="title_activity_darah_perawan">Level 1</string>
+    <string name="title_activity_daun_jendela">Level 1</string>
+    <string name="title_activity_gita_gutawa">level 1</string>
+    <string name="title_activity_jambu_air">level 1</string>
+    <string name="title_activity_jembatan_layang">level 1</string>
+    <string name="title_activity_kurang_gigih">level 1</string>
+    <string name="title_activity_minta_uang">level 1</string>
+    <string name="title_activity_finish">Finish</string>
+
+</resources>

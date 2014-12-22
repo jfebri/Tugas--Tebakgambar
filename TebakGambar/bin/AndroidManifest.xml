@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tb.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tb.tebakgambar.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tb.tebakgambar.AngkatTanganActivity"
+            android:label="@string/title_activity_angkat_tangan" >
+        </activity>
+        <activity
+            android:name="com.tb.tebakgambar.BelahDurenActivity"
+            android:label="@string/title_activity_belah_duren" >
+        </activity>
+        <activity
+            android:name="com.tb.tebakgambar.DarahPerawanActivity"
+            android:label="@string/title_activity_darah_perawan" >
+        </activity>
+        <activity
+            android:name="com.tb.tebakgambar.DaunJendelaActivity"
+            android:label="@string/title_activity_daun_jendela" >
+        </activity>
+        <activity
+            android:name="com.tb.tebakgambar.GitaGutawaActivity"
+            android:label="@string/title_activity_gita_gutawa" >
+        </activity>
+        <activity
+            android:name="com.tb.tebakgambar.JambuAirActivity"
+            android:label="@string/title_activity_jambu_air" >
+        </activity>
+        <activity
+            android:name="com.tb.tebakgambar.JembatanLayangActivity"
+            android:label="@string/title_activity_jembatan_layang" >
+        </activity>
+        <activity
+            android:name="com.tb.tebakgambar.KurangGigihActivity"
+            android:label="@string/title_activity_kurang_gigih" >
+        </activity>
+        <activity
+            android:name="com.tb.tebakgambar.MintaUangActivity"
+            android:label="@string/title_activity_minta_uang" >
+        </activity>
+        <activity
+            android:name="com.tb.tebakgambar.FinishActivity"
+            android:label="@string/title_activity_finish" >
+        </activity>
+    </application>
+
+</manifest>
